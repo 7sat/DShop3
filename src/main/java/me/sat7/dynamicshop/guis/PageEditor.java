@@ -75,7 +75,7 @@ public final class PageEditor extends InGameUI
                 meta.setLore(loreList);
 
                 meta.addItemFlags(ItemFlag.HIDE_ATTRIBUTES);
-                meta.addItemFlags(ItemFlag.HIDE_POTION_EFFECTS);
+                meta.addItemFlags(ItemFlag.HIDE_ADDITIONAL_TOOLTIP);
                 meta.addItemFlags(ItemFlag.HIDE_DYE);
                 meta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
 
